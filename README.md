@@ -34,6 +34,11 @@ Já para a movimentação contínua do motor, a tarefa indica o uso de passos de
 #define STEP        25
 ```
 
+## Comportamento de um led
+
+Conforme solicitado na tarefa, o sinal PWM foi aplicado a um led utilizando a plataforma BitdogLab e setando o PWM para o pino 12, que corresponde ao led Azul. Nos 15 primeiros segundos de execução, o led apresentou pequenos saltos de luminosidade, correspondentes às posições de 180º, 90º e 0º, respectivamente. Importante salientar que o led não apaga totalmente na posição 0º, dado que o duty cycle para essa posição ainda é de 2,5% do valor total.
+Ao entrar no modo ciclico, é possível ver a luminosidade do led variar gradativamente para mais e para menos, mas sempre com uma luminosidade baixa. Isso ocorre porque a luminosidade sempre se apresenta entre 2,5% e 12% da luminosidade total do led, valores que correspondem ao duty cycle mínimo e máximo para controle do motor.
+
 ## Hardware 🛠️
 
 - Microcontrolador RP2040 (Raspberry Pi Pico).
