@@ -68,7 +68,7 @@ Ao entrar no modo ciclico, é possível ver a luminosidade do led variar gradati
 
 ## 🔗 Link do Vídeo de Funcionamento:
 
-https://drive.google.com/file/d/1118dtAJuiiKRs1i7EShtLsdd9D56enlQ/view?usp=drive_link
+https://drive.google.com/file/d/1HuvlWcYEaFpFgHANkxnadgjGQath06zl/view?usp=sharing
 
 ## 📞 Contato
 
